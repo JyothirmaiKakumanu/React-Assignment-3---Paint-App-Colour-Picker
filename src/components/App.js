@@ -32,9 +32,9 @@ const App = () => {
   const applyColor = (updateSelectionStyle) => {
     updateSelectionStyle(nextBackground);
   };
-  // selectNextBackground=(background)=>{
+  // selectNextBackground = (background) => {
   //   nextBackground = background.background;
-  // }
+  // };
 
   return (
     <div id="master">
