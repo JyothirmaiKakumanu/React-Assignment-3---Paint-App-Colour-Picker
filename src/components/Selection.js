@@ -5,14 +5,14 @@ const Selection = ({applyColor}) => {
 
    
     return (
-        <>
+    
             <div className="fix-box" style={selectionBG} onClick={()=>{
                 applyColor(setSelectionBG)
             }}>
                 <h2 className="subheading">Selection</h2>
             </div>
             
-        </>
+    
     );
 };
 
